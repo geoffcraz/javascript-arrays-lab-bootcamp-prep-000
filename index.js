@@ -12,12 +12,12 @@ function destructivelyPrependKitten(name) {
   return prepend
 }
 
-/*function destructivelyRemoveLastKitten() {
+function destructivelyRemoveLastKitten() {
   var pop = (kittens.pop())
   return pop
 }
 
-function destructivelyRemoveFirstKitten() {
+/*function destructivelyRemoveFirstKitten() {
   var remove = (kittens.shift())
   return remove
 }
