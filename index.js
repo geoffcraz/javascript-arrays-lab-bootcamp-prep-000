@@ -7,12 +7,12 @@ function destructivelyAppendKitten(name) {
   return destruction
 }
 
-/*function destructivelyPrependKitten(name) {
-  var prepend = (kittens.unshift(`${name}`))
+function destructivelyPrependKitten(name) {
+  var prepend = (kittens.unshift(name))
   return prepend
 }
 
-function destructivelyRemoveLastKitten() {
+/*function destructivelyRemoveLastKitten() {
   var pop = (kittens.pop())
   return pop
 }
