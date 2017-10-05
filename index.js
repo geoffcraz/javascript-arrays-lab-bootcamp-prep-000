@@ -3,11 +3,11 @@ const app = "I don't do much."
 const kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyAppendKitten(name) {
- var destruction = (kittens.push(`${name}`))
+ var destruction = (kittens.push(name))
   return destruction
 }
 
-function destructivelyPrependKitten(name) {
+/*function destructivelyPrependKitten(name) {
   var prepend = (kittens.unshift(`${name}`))
   return prepend
 }
