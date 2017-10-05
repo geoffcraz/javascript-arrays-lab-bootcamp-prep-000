@@ -6,25 +6,23 @@ function destructivelyAppendKitten(name) {
   return (kittens.push(name))
 }
 
-function destructivelyPrependKitten(name) {
+function destructivelyPrependKitten(name) { 
   return (kittens.unshift(name))
 }
 
-function destructivelyRemoveLastKitten() {
+function destructivelyRemoveLastKitten() { 
   return (kittens.pop())
 }
 
-/*function destructivelyRemoveFirstKitten() {
-  var remove = (kittens.shift())
-  return remove
+function destructivelyRemoveFirstKitten() {
+  return (kittens.shift())
 }
 
 function appendKitten(name) {
-  var moreKitties = [...kittens, `${name}`]
-  return moreKitties
+  return [...kittens, name]
 }
 
-function prependKitten(name) {
+/*function prependKitten(name) {
   return [`${name}`, ...kittens]
 }
 
